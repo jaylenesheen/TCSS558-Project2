@@ -1,3 +1,11 @@
+#
+# TCSS 558 - Fall 2014
+# Project 2, rcp multi threaded client/server 
+# File: server_rcp.py
+# Authors Wiehan Jiang and Jaylene Sheen
+# Date: 11/04/2014
+#
+
 import pickle
 import sys
 import re
