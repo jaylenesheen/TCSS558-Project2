@@ -8,6 +8,14 @@ from datetime import datetime
 import Pyro4
 import os
 
+#
+# TCSS 558 - Fall 2014
+# Project 2, rcp multi threaded client/server
+# File: client_rcp.py
+# Authors Wiehan Jiang and Jaylene Sheen
+# Date: 11/04/2014
+#
+
 class RPC_Server(object):
     def get_request(self, request):
         print "\n[INFO][%s]+++++++++ new requesting coming in +++++++++" %str(datetime.now())

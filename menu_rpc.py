@@ -4,6 +4,14 @@ import os
 import sys
 from datetime import datetime
 
+#
+# TCSS 558 - Fall 2014
+# Project 2, rcp multi threaded client/server
+# File: client_rcp.py
+# Authors Wiehan Jiang and Jaylene Sheen
+# Date: 11/04/2014
+#
+
 class RPC_Client(cmd.Cmd):
     """Simple command processor."""
 

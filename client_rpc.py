@@ -5,6 +5,14 @@ import sys
 from datetime import datetime
 import Pyro4
 
+#
+# TCSS 558 - Fall 2014
+# Project 2, rcp multi threaded client/server
+# File: client_rcp.py
+# Authors Wiehan Jiang and Jaylene Sheen
+# Date: 11/04/2014
+#
+
 logging.basicConfig(filename='client_rpc.log', level=logging.INFO)
 #logging.info('[INFO][%s]:Client Started.' %str(datetime.now()))
 data = " ".join(sys.argv[1:])
