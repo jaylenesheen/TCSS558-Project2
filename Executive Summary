@@ -1,0 +1,14 @@
+Executive Summary
+TCSS 558: Applied Distributed Computing, Autumn 2014
+Name: Weihan Jaing and Jaylene Sheen
+Assignment Overview:
+
+This assignment is an extension of Project 1 in which we built a Server/Client framework. The server serves as a database which stores pairs of data (key and value). The server runs until it is cancelled. Client server is designed to query the server with GET, PUT, and DELETE. In this second version of the assignment, we are to change from sockets to Remote Procedure Calls for our communications between client and server. We are also to change the server to use multi-threading. To test the multi-threaded server, our program must send 5 PUTs, 5 GETs, and 5 DELETEs to the server. 
+
+Technical Impression:
+
+As in the first project the system runs on Linux; and the user interface is also Linux Clish-like. The database is stored on the local disk and each request requires a fetch and load into memory. This ensures data safety but may cost time. 
+We incorporated Pyro4 (PYthon Remote Objects) which is a library that enables us to build applications in which objects can talk to each other over the network, with minimal programming effort. 
+In our first project we included a menu program that could be run at command line allowing for port and IP server/client arguments. In this version we updated the menu to include arguments to server for PUT, GET, QUERY, and DELETE. The menu program is also the place where we incorporate our test of 5 PUTs, 5 GETs, and 5 DELETEs. 
+As for the scope of the project, we achieved all required features mentioned in assignment. 
+
